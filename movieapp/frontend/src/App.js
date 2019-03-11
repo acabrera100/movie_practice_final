@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './Css/App.css';
 import Navbar from  './components/navbar'
 class App extends Component {
   render() {

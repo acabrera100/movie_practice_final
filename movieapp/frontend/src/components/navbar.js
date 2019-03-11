@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { Link} from "react-router-dom";
-
+import { Link } from "react-router-dom";
+import "../Css/Navbar.css";
 
 class Navbar extends Component {
   constructor() {
@@ -8,12 +8,22 @@ class Navbar extends Component {
     this.state = {};
   }
   render() {
-    return <>
-    <nav>
-    <Link to="/dashboard"><img src="https://img.icons8.com/dotty/40/000000/tumblr.png" alt="favicon here"/></Link>
+    return (
+      <>
+        <nav>
+          <Link to="/Home" className="link-home">
+            Home
+          </Link>
 
-    </nav>
-    </>;
+          <Link to="/movies" className="link">
+            AllMovies
+          </Link>
+          <Link to="/movies/byGenre" className="link">
+            ByGenre
+          </Link>
+        </nav>
+      </>
+    );
   }
 }
 
