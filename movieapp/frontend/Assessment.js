@@ -73,10 +73,12 @@ Homepage
 // The h1 tag should justified to the center horizontally, with 200px of space to distance itself from the Navbar. It should be red, in a serif font of your choice.
 
 All Movies and By Genre
--These pages' background colors should be black.
--All text should be in a sans-serif font of your choice. If it is against the black background (read: not in a form), it should be yellow.
--All content should be justified toward the center, with 75 px of space to distance it from the Navbar.
--Each movie item should include a 100x100px area of space for the movie's image. The movie image should not warp, but adjust its size to fit this space. Each movie item should have a 2px solid white border, with at least 15px of vertical space between each item.
+// -These pages' background colors should be black.
+// -All text should be in a sans-serif font of your choice. If it is against the black background (read: not in a form), it should be yellow.
+// -All content should be justified toward the center, with 75 px of space to distance it from the Navbar.
+// -Each movie item should include a 100x100px area of space for the movie's image.
+- The movie image should not warp, but adjust its size to fit this space.
+// -Each movie item should have a 2px solid white border, with at least 15px of vertical space between each item.
 
 
 Single Movie
@@ -84,4 +86,4 @@ Single Movie
 // -All text should be in a sans-serif font of your choice. If it's against the black background (read: not in a form), it should be orange.
 // -All movie information, including average rating, should render at the top of the page, justified center, with 75px of space to differentiate it from the navbar.
 // -Comments, including the comment submission form, should render below this information, justified left.
--Each comment should have a 2px solid white border on the bottom, with at least 10px of vertical space between each comment.
+// -Each comment should have a 2px solid white border on the bottom, with at least 10px of vertical space between each comment.
