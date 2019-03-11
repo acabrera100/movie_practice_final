@@ -1,0 +1,17 @@
+.home-body{
+  min-height: 100vh;
+  background-color: black
+}
+
+h1{
+  color: white;
+}
+
+.homeh1{
+  padding-top: 200px;
+  color: red;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Merriweather', serif;
+}
