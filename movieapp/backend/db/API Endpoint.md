@@ -4,6 +4,15 @@ Largely, your API endpoints are up to you as a developer. However, based on a co
 Fetch all movies with an average of all the ratings for each movie.
 Fetch all information and comments for a specific movie.
 Fetch all the movies that have a certain genre.
+
+
+
+
+
+
+
+
+
 Frontend Routes
 You should have the following routes on your frontend:
 
