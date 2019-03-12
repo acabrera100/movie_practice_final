@@ -1,9 +1,11 @@
-API Endpoints
-Largely, your API endpoints are up to you as a developer. However, based on a consideration of what we'll need on the frontend, a few potential needs become apparent. While we may be able to process some of this stuff on the frontend, we'll probably want API endpoints that:
+<!-- API Endpoints
+Largely, your API endpoints are up to you as a developer. However, based on a consideration of what we'll need on the frontend, a few potential needs become apparent. While we may be able to process some of this stuff on the frontend, we'll probably want API endpoints that: -->
 
 <!-- Fetch all movies with an average of all the ratings for each movie. -->
-Fetch all information and comments for a specific movie.
-Fetch all the movies that have a certain genre.
+<!-- title, img_url , averge rating -->
+
+<!-- Fetch all information and comments for a specific movie. SINGLE MOVIE -->
+<!-- Fetch all the movies that have a certain genre. -->
 
 
 
@@ -16,15 +18,15 @@ Fetch all the movies that have a certain genre.
 Frontend Routes
 You should have the following routes on your frontend:
 
-/ - A homepage that reads: "Welcome to MovieApp" in an h1 tag.
-Also renders a navigation bar across the top of the page, visible on every subsequent route.
-Navbar should have the following links: "Home," "All Movies," "By Genre".
+<!-- - / - A homepage that reads: "Welcome to MovieApp" in an h1 tag. -->
+<!-- - Also renders a navigation bar across the top of the page, visible on every subsequent route. -->
+<!-- - Navbar should have the following links: "Home," "All Movies," "By Genre". -->
 
 
-/movies - A page that fetches and renders all movies, including their image URLs and average ratings.
-Includes a form tag containing a text input and a submit button. Label - "Search By Title."
-When a user enters part or all of a movie's title (not case sensitive) and clicks "Search" (submit), the list of movies should be filtered to only the movies with titles that correspond to what the user was searching for.
-Each movie should link to that movie's individual page (route described below).
+- /movies - A page that fetches and renders all movies, including their image URLs and average ratings.
+- Includes a form tag containing a text input and a submit button. Label - "Search By Title."
+- When a user enters part or all of a movie's title (not case sensitive) and clicks "Search" (submit), the list of movies should be filtered to only the movies with titles that correspond to what the user was searching for.
+- Each movie should link to that movie's individual page (route described below).
 
 -/movies/byGenre - A page that fetches and renders all movies, including their image URLs and average ratings. This time with a different search metric!
 // -Includes a form tag containing a select input and a submit button. Label - "Search By Genre."
