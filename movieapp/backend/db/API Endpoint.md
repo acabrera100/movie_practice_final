@@ -1,7 +1,7 @@
 API Endpoints
 Largely, your API endpoints are up to you as a developer. However, based on a consideration of what we'll need on the frontend, a few potential needs become apparent. While we may be able to process some of this stuff on the frontend, we'll probably want API endpoints that:
 
-Fetch all movies with an average of all the ratings for each movie.
+<!-- Fetch all movies with an average of all the ratings for each movie. -->
 Fetch all information and comments for a specific movie.
 Fetch all the movies that have a certain genre.
 
