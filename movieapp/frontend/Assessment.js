@@ -44,6 +44,8 @@ You should have the following routes on your frontend:
 / - A homepage that reads: "Welcome to MovieApp" in an h1 tag.
 Also renders a navigation bar across the top of the page, visible on every subsequent route.
 Navbar should have the following links: "Home," "All Movies," "By Genre".
+
+
 /movies - A page that fetches and renders all movies, including their image URLs and average ratings.
 Includes a form tag containing a text input and a submit button. Label - "Search By Title."
 When a user enters part or all of a movie's title (not case sensitive) and clicks "Search" (submit), the list of movies should be filtered to only the movies with titles that correspond to what the user was searching for.
