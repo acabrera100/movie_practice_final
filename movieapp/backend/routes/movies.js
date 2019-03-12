@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
+const {getAllMovies,getSingleMovie} = require("../db/queries/movieQueries.js")
+
+router.get("/",getAllMovies);
+router.get("/:id", getSingleMovie)
 
 module.exports = router;
