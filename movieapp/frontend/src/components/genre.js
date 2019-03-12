@@ -1,11 +1,16 @@
 import React, { Component } from "react";
 import "../Css/AllMovies.css";
+import axios from 'axios'
+
+
 class Genre extends Component {
   constructor() {
     super();
     this.state = {};
   }
-
+componentDidMount(){
+  axios.get('/movies').then(res =>{})
+}
   render() {
     return (
       <div className="movie-body">
